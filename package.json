@@ -89,6 +89,10 @@
   "dependencies": {
     "classnames": "^2.2.5"
   },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
   "pre-commit": [
     "lint"
   ],
