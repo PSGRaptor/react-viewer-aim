@@ -18,7 +18,7 @@ export default function ViewerNav(props: ViewerNavProps) {
     props.onChangeImg(newIndex);
   }
 
-  let marginLeft = `calc(50% - ${activeIndex + 1} * 31px)`;
+  let marginLeft = `calc(50% - ${activeIndex + 1} * 81px)`;
   let listStyle = {
     marginLeft: marginLeft,
   };
